@@ -156,3 +156,56 @@ form {
     position: relative;
     margin-top: -300px;
 }
+
+@media screen and (max-width: 900px) {
+    .div1{
+        width: 500px;
+    }
+    
+    .div1 img {
+        width: 200px;
+        position: relative;
+        left: -70px;
+    }
+
+    .div1 p {
+        font-size: 10px;
+        position: relative;
+        left: -70px;
+        
+    }
+
+    .cabeçalho img {
+        width: 50px;
+    }
+
+    .cabeçalho a {
+        font-size: 10px;
+    }
+
+    .icone-whatsapp {
+        width: 70px;
+        position: relative;
+        left: 40px;
+    }
+
+    .imgform {
+        width: 100%;
+        left: 50px;
+        top: -200px;
+    }
+
+    h4 {
+        position: relative;
+        top: 30px;
+
+    }
+
+    .saiba {
+        position: relative;
+        margin-top: -100px;
+    }
+        
+    
+  
+}
