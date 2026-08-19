@@ -211,5 +211,9 @@ form {
         left: -800px;
     }
     
+    .caixa-principal button {
+        position: relative;
+        left: -70px;
+    }
   
 }
