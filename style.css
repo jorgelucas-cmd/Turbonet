@@ -180,7 +180,8 @@ form {
     }
 
     .cabeçalho a {
-        font-size: 5px;
+        font-size: 20px;
+        
     }
 
     .icone-whatsapp {
@@ -207,7 +208,7 @@ form {
     }
         
     .caixa-video {
-        left: -700px;
+        left: -800px;
     }
     
   
