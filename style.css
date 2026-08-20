@@ -86,7 +86,10 @@ p {
     color: white;
     font-size: 24px;
     cursor: pointer;
+    text-decoration: none;
+    
 }
+
 
 .logo-header {
     width: 200px;
@@ -111,7 +114,7 @@ form {
     background-color: #ffffff;
     position: fixed;
     top:30%;
-    left: -650px;
+    left: -750px;
 
     /* 
     left: 50%;
@@ -124,8 +127,8 @@ form {
 
     padding: 20px;
     border-radius: 3px;
-    width: 350px;
-    height: 350px;
+    width: 450px;
+    height: 400px;
     z-index: 1;
     transition: 0.5s left ease-in-out;
     
@@ -147,17 +150,90 @@ form {
 
 .imgform {
     position: relative;
-    top: -240px;
+    top: -590px;
     right: -110px;
     width: 150%;
 }
 
 .saiba{
     position: relative;
-    margin-top: -300px;
+    margin-top: -640px;
 }
 
+.formulario h4 { 
+    color: #01159c;
+    font-size: 20px;
+    font-family: Oswald;
+
+}
+
+h4 span {
+    color: #fa6200;
+    font-family: Oswald;
+
+}
+
+.megas100 {
+    color: #01159c;
+}
+
+.megas500 {
+    color: #01159c;
+}
+
+.megas700 {
+    color: #01159c;
+}
+
+.aviso {
+   color: #01159c;
+   font-size: 15px;
+}
+
+.aviso span {
+    color: #c70202;
+}
+
+.megas100 span {
+    color: #fa6200;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+.megas500 span {
+    color: #fa6200;
+    font-size: 30px;
+    font-family: Oswald; 
+}
+
+.megas700 span {
+    color: #fa6200;
+    font-size: 30px;
+    font-family: Oswald;
+}
+
+
 @media screen and (max-width: 900px) {
+
+    .formulario {
+        width: 300px;
+    }
+
+    .formulario h4 {
+        font-size: 25px;
+        top: 14px;
+    }
+
+    .aviso {
+        font-size: 11px;
+    }
+
+    .saiba {
+        left: 100px;
+        bottom: -130px;
+        width: 150px;
+    }
+
     .div1{
         width: 500px;
     }
@@ -193,7 +269,7 @@ form {
     .imgform {
         width: 100%;
         left: 50px;
-        top: -200px;
+        top: -1000px;
     }
 
     h4 {
@@ -204,7 +280,7 @@ form {
 
     .saiba {
         position: relative;
-        margin-top: -100px;
+        margin-top: -440px;
     }
         
     .caixa-video {

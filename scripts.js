@@ -10,7 +10,8 @@ function mostrarform() {
 }
 
 function esconderform() {
-    formulario.style.left = "-650px";
+    formulario.style.left = "-850px";
     formulario.style.transform = "translateX(0)";
     mascara.style.visibility = "hidden";
 }
+
